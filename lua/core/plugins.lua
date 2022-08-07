@@ -255,6 +255,9 @@ local astro_plugins = {
     event = "BufWritePost",
     config = function() require "configs.session_manager" end,
   },
+
+  -- Bacon (rust) impl
+  ["canop/nvim-bacon"] = {},
 }
 
 if astronvim.updater.snapshot then
